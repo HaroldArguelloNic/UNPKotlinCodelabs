@@ -1,31 +1,24 @@
-# UNPKotlinCodelabs
-<h3>repositorio de codelabs propuestos en desarrollo de aplicaciones 5</h3>
+# Google Sheets API Codelab
 
+This folder contains the source code for a Google I/O 2016 codelab.
 
-![logo_UNP](https://github.com/user-attachments/assets/72e2ba77-7379-4de0-89f6-f8c346d9b1f7)
+### License
 
-<h2>CodeLabs de Kotlin</h2>
+```
+Copyright 2016 Google, Inc.
 
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements. See the NOTICE file distributed with this work for
+additional information regarding copyright ownership. The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
 
-* <a href="https://developer.android.com/codelabs/kotlin-bootcamp-basics">Kotlin Bootcamp Basics</a>
-   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab03">Desarollo Codelab03</a>
-   ***
-    
-* <a href="https://developer.android.com/codelabs/kotlin-bootcamp-functions#0">Kotlin Bootcamp Funtions</a> 
-  
-   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab04">Desarrollo del Codelab04</a>
-  ***  
-* <a href="https://developer.android.com/codelabs/kotlin-bootcamp-classes">Kotlin Bootcamp Clases y Objetos</a>
-  
-   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab05">Desarrollo del Codelab05</a>
-   ***
-    
-* <a href="https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-extensions/">Kotlin Bootcamp Extensiones</a>
-  
-   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab06>Desarrollo del Codelab06</a>
-   ***
+http://www.apache.org/licenses/LICENSE-2.0
 
-* <a href="https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-extensions/">Use ConstraintLayout to design your Android views </a>
-  
-   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab07>Desarrollo del Codelab07</a>
-   ***
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations under
+the License.
+```
