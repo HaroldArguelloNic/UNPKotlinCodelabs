@@ -150,8 +150,8 @@ fun main() {
     val myList = mutableListOf("tuna", "salmon", "shark")
     myList.remove("shark")
     //Crear arreglos
-    val school = arrayOf("shark", "salmon", "minnow")
-    println(java.util.Arrays.toString(school))
+    //val school = arrayOf("shark", "salmon", "minnow")
+    //println(java.util.Arrays.toString(school))
 
     val mix = arrayOf("fish", 2)
     //combinar 2 arrays con el operador (+)
@@ -159,5 +159,24 @@ fun main() {
     val numbers3 = intArrayOf(4,5,6)
     val foo2 = numbers3 + numbers
     println(foo2[5])
+
+   val oceans = listOf("Atlantic", "Pacific")
+    val oddList = listOf(numbers, oceans, "salmon")
+    println(oddList)
+    // creamos un array de 5 elementos el cual se llena con una funcion anonima que multiplica el indice del elemento * 2
+    val array = Array (5) { it * 2 }
+    println(java.util.Arrays.toString(array))
+    /**
+     * Creando Bucles
+      */
+    //creando un for que itera cada elemento
+    val school = arrayOf("shark", "salmon", "minnow")
+    for (element in school) {
+        println(element + " ")
+    }
+    //creando un for que itera por cada elemento y muestra el indice
+    for ((index, element) in school.withIndex()) {
+        println("Item at $index is $element\n")
+    }
 }
 
