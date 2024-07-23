@@ -170,13 +170,80 @@ fun main() {
      * Creando Bucles
       */
     //creando un for que itera cada elemento
-    val school = arrayOf("shark", "salmon", "minnow")
-    for (element in school) {
-        println(element + " ")
-    }
+    //val school = arrayOf("shark", "salmon", "minnow")
+//    for (element in school) {
+//        println(element + " ")
+//    }
     //creando un for que itera por cada elemento y muestra el indice
-    for ((index, element) in school.withIndex()) {
-        println("Item at $index is $element\n")
+//    for ((index, element) in school.withIndex()) {
+//        println("Item at $index is $element\n")
+//    }
+    // for que itera de 1 hasta 5
+    for (i in 1..5) print(i)
+    println()
+    //for que itera de forma descendente de 5 a 1
+    for (i in 5 downTo 1) print(i)
+    println()
+    //for que itera entre 3 y 6, con saltos de 2 elementos
+    for (i in 3..6 step 2) print(i)
+    println()
+    //for que itera entre los caracteres d y  g
+    for (i in 'd'..'g') print (i)
+    println()
+
+    // un bucle while que itera mientras la condicion se cumpla
+    var bubbles = 0
+    while (bubbles < 50) {
+        bubbles++
     }
+    println("$bubbles bubbles in the water\n")
+    // un bucle que itera la primera vez y continua mientras la condicion while se cumpla
+    do {
+        bubbles--
+    } while (bubbles > 50)
+    println("$bubbles bubbles in the water\n")
+    // repite 2 veces el cuerpo de la funcion
+    repeat(2) {
+        println("A fish is swimming")
+    }
+
+    /**
+     * Homework
+     */
+
+//    Answer these questions
+//    Question 1
+//    Which of the following declares an unchangeable list of strings?
+//
+//    ▢ val school = arrayOf("shark", "salmon", "minnow")
+//
+//    ▢ var school = arrayOf("shark", "salmon", "minnow")
+//
+      val school = listOf("shark", "salmon", "minnow")
+//
+//    ▢ val school = mutableListOf("shark", "salmon", "minnow")
+
+//    Question 2
+//    What will be the output of the following code? for (i in 3..8 step 2) print(i)
+//
+//    ▢ 345678
+//
+//    ▢ 468
+//
+//    ▢ 38
+//
+    /* 357     Respuesta  */
+//
+//    Question 3
+//    What is the purpose of the question mark in this code? var rocks: Int? = 3
+//
+//    ▢ The type of the variable rocks isn't fixed.
+//
+//    ▢ The variable rocks can be set to null.      Respuesta
+//
+//    ▢ The variable rocks cannot be set to null.
+//
+//    ▢ The variable rocks shouldn't be initialized right away.
+
 }
 
