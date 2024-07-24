@@ -35,6 +35,7 @@ fun isSunday(day: String) = day == "Sunday"
 fun swim(speed: String = "fast") {
     println("swimming $speed")
 }
+//creamos funcion con parametros por defecto
 fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = 20): Boolean {
     return when {
         temperature > 30 -> true
@@ -64,5 +65,34 @@ fun main(args: Array<String>) {
     swim("slow")   // positional argument
     swim(speed="turtle-like")   // named parameter
 
+    val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+    //uso de filtro resultado elementos que inician con la letra p
+    println( decorations.filter {it[0] == 'p'})
+    // eager, creamos una lista nueva con el resultado del filtro
+    val eager = decorations.filter { it [0] == 'p' }
+    println("eager: $eager")
 
+    // lazy, will wait until asked to evaluate
+    val filtered = decorations.asSequence().filter { it[0] == 'p' }
+    println("filtered: $filtered")
+    // force evaluation of the lazy list
+    val newList = filtered.toList()
+    println("new list: $newList")
+
+    val lazyMap = decorations.asSequence().map {
+        println("access: $it")
+        it
+    }
+    println("lazy: $lazyMap")
+    println("-----")
+    println("first: ${lazyMap.first()}")
+    println("-----")
+    println("all: ${lazyMap.toList()}")
+
+    val lazyMap2 = decorations.asSequence().filter {it[0] == 'p'}.map {
+        println("access: $it")
+        it
+    }
+    println("-----")
+    println("filtered: ${lazyMap2.toList()}")
 }
