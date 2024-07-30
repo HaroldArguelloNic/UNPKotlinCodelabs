@@ -8,7 +8,7 @@
 
 <ul>
   <li><a href="https://developer.android.com/codelabs/kotlin-bootcamp-basics">Kotlin Bootcamp Basics</li>
-    <h2 color:blue><a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab03"> Respuesta</h2p>
+    <h2 color:yellow><a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab03"> Respuesta</h2p>
   <li></li>
   <li></li>
   <li></li>
