@@ -1,5 +1,7 @@
 package example.myapp
 
+import kotlin.math.PI
+
 open class Aquarium(length: Int = 100, width: Int = 20, height: Int = 40) {
     //bloque de inicializacion
     init {
@@ -12,7 +14,7 @@ open class Aquarium(length: Int = 100, width: Int = 20, height: Int = 40) {
 //    }
     //inicializacion de las propiedades con los parametros por defecto
     var width: Int = width
-    var height: Int = height
+    open var height: Int = height
     var length: Int = length
 
     //funcion que imprime las propiedades de la clase
@@ -22,7 +24,7 @@ open class Aquarium(length: Int = 100, width: Int = 20, height: Int = 40) {
                 "Length: $length cm " +
                 "Height: $height cm ")
         // 1 l = 1000 cm^3
-        println("Volume: $volume l")
+        println("Volume: $volume l Water: $water l (${water/volume*100.0}% full)")
     }
     constructor(numberOfFish: Int) : this() {
         // 2,000 cm^3 per fish + extra room so water doesn't spill
@@ -37,7 +39,19 @@ open class Aquarium(length: Int = 100, width: Int = 20, height: Int = 40) {
             height = (value * 1000) / (width * length)
         }
     open val shape = "rectangle"
-
+// se crea la propiedad water con su get
     open var water: Double=0.0
-        get() = volume * 0.09
+        get() = volume * 0.9
 }
+//creamos la sublcase towerTank
+class TowerTank (override var height: Int, var diameter: Int) : Aquarium(height= height, width = diameter, length = diameter) {
+    override var volume: Int
+        //Area del ellipse es igual a π * R^2
+
+        get() = (width/2 * length/2 * height/1000 * PI).toInt()
+        set(value) {
+            height= ((value*1000/PI)/(width/2 * length/2)).toInt()
+        }
+    override var water = volume * 0.8
+    override val shape = "cylinder"
+ }
