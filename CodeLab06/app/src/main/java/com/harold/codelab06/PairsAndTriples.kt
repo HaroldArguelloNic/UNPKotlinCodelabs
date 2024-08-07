@@ -61,4 +61,17 @@ fun main() {
     println(inventory.toString())
     inventory.remove("fish net")
     println(inventory.toString())
+
+    /*
+    Aprendiendo sobre const vs val
+     */
+    val rocks = 3
+
+//    const val value1 = complexFunctionCall() // OK
+//    const val CONSTANT1 = complexFunctionCall() // NOT ok
+
+//    object Constants {
+//        const val CONSTANT2 = "object constant"
+//    }
+//    val foo = Constants.CONSTANT2
 }
