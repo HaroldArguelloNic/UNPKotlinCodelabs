@@ -20,5 +20,12 @@
    - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab05">Desarrollo del Codelab05</a>
    ***
     
-  <li><a href="https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-extensions/">Kotlin Bootcamp Extensiones</a></li>
+* <a href="https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-extensions/">Kotlin Bootcamp Extensiones</a>
+  
+   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab06>Desarrollo del Codelab06</a>
+   ***
 
+* <a href="https://codelabs.developers.google.com/codelabs/kotlin-bootcamp-extensions/">Use ConstraintLayout to design your Android views </a>
+  
+   - <a href="https://github.com/HaroldArguelloNic/UNPKotlinCodelabs/tree/main/CodeLab07>Desarrollo del Codelab07</a>
+   ***
