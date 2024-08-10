@@ -1,52 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <locale>de</locale>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.ConstraintLayout</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_autoconnect.xml">
+        <config>
+          <theme>@style/Theme.ConstraintLayout</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_barriers.xml">
+        <config>
+          <theme>@style/Theme.ConstraintLayout</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_chains.xml">
+        <config>
+          <theme>@style/Theme.ConstraintLayout</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_inference.xml">
+        <config>
+          <theme>@style/Theme.ConstraintLayout</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fec406f1-b2bc-4e7b-83fb-2d84cb9b80f3" name="Changes" comment="actualizando el codelab07">
-      <change beforePath="$PROJECT_DIR$/../CodeLab04/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeLab04/.idea/other.xml" afterDir="false" />
+    <list default="true" id="fcacf1cb-f62d-492f-8727-78549acd4205" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/singapore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_ab_drawer_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_ab_up_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/info_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_autoconnect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_barriers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_chains.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_inference.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_ratio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_start.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-de/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/.github/workflows/build_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/java/com/google/googleio/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable-nodpi/singapore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_ab_drawer_mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_ab_up_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/drawable/info_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_autoconnect.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_barriers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_chains.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_done.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_inference.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_ratio.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/layout/activity_main_start.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/values-de/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/app/src/test/java/com/google/googleio/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/java/com/google/googleio/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable-nodpi/singapore.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_ab_drawer_mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_ab_up_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable-xxhdpi/ic_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/drawable/info_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_autoconnect.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_barriers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_chains.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_inference.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_ratio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/layout/activity_main_start.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/values-de/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/app/src/test/java/com/google/googleio/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../constraint-layout-start/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,118 +107,143 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/build.gradle">
-          <activation />
-        </task>
-        <projects_view />
-      </state>
-    </system>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\DELL\.android\avd\Pixel_5_API_31.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;HaroldArguelloNic&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HaroldArguelloNic"
   }
-}</component>
-  <component name="GitRewordedCommitMessages">
-    <option name="onto" value="71655c6cd63beb1da47e8f67545681d027ccd3f5" />
-  </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/HaroldArguelloNic/UNPKotlinCodelabs.git&quot;,
-    &quot;accountId&quot;: &quot;92adcf66-d181-46c1-99ef-167842eeb902&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HaroldArguelloNic/UNPKotlinCodelabs.git",
+    "accountId": "92adcf66-d181-46c1-99ef-167842eeb902"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2kS1nZS87J3OqLtqGO5I6EY9gQ9" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2kT76NvlakhisgyvVFHUXHbNc05" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "AnalyzeApkAction.lastApkPath": "C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07",
-    "Gradle.C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07/codelab-constraint-layout-master.executor": "Run",
-    "Gradle.C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07/codelab-constraint-layout-master/constraint-layout-start/build.gradle [clean] (1).executor": "Run",
-    "Gradle.C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07/codelab-constraint-layout-master/constraint-layout-start/build.gradle [clean] (2).executor": "Run",
-    "Gradle.C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07/codelab-constraint-layout-master/constraint-layout-start/build.gradle [clean].executor": "Run",
-    "Gradle.constraint-layout-start.executor": "Run",
+    "Android App.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab04",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "gradle.compiler"
+    "last_directory_selection": "C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07/app/src/main/res/values",
+    "last_opened_file_path": "C:/Users/DELL/AndroidStudioProjects/CodelabsKotlin/CodeLab07/app/src/main/res/layout",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\DELL\\.gradle"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\AndroidStudioProjects\CodelabsKotlin\CodeLab07\app\src\main\res\layout" />
+      <recent name="C:\Users\DELL\AndroidStudioProjects\CodelabsKotlin\CodeLab07\app\src\main\res" />
+      <recent name="C:\Users\DELL\AndroidStudioProjects\CodelabsKotlin\CodeLab07\app\src\main\res\values" />
+      <recent name="C:\Users\DELL\AndroidStudioProjects\CodelabsKotlin\CodeLab07\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ConstraintLayout.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fec406f1-b2bc-4e7b-83fb-2d84cb9b80f3" name="Changes" comment="" />
-      <created>1723262332650</created>
+      <changelist id="fcacf1cb-f62d-492f-8727-78549acd4205" name="Changes" comment="" />
+      <created>1723295536425</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1723262332650</updated>
+      <updated>1723295536425</updated>
     </task>
-    <task id="LOCAL-00001" summary="actualizando el codelab07">
-      <option name="closed" value="true" />
-      <created>1723262408563</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723262408563</updated>
-    </task>
-    <task id="LOCAL-00002" summary="actualizando el codelab07">
-      <option name="closed" value="true" />
-      <created>1723262764213</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723262764213</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="actualizando el codelab07" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizando el codelab07" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CodeLab07$C__Users_DELL_AndroidStudioProjects_CodelabsKotlin_CodeLab07_codelab_constraint_layout_master_constraint_layout_start_build_gradle__clean_.ic" NAME="$PROJECT_DIR$/codelab-constraint-layout-master/constraint-layout-start/build.gradle [clean] Coverage Results" MODIFIED="1723266141460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
