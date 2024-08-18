@@ -5,7 +5,7 @@
 ![logo_UNP](https://github.com/user-attachments/assets/72e2ba77-7379-4de0-89f6-f8c346d9b1f7)
 
 <h2>CodeLabs de Kotlin</h2>
-<h2>alumno: Harold Arguello</h2>
+
 
 
 * <a href="https://developer.android.com/codelabs/kotlin-bootcamp-basics">Kotlin Bootcamp Basics</a>
